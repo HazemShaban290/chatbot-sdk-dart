@@ -2,18 +2,18 @@ const BASE_URL = "https://finovax.duckdns.org:8000"; // or your backend URL
 
 
 const chatbot_endpoints = {
-  chat: `${BASE_URL}/api/v1/chatbot/chat`,
-  config: `${BASE_URL}/api/v1/chatbot/config`,
-  config_key: `${BASE_URL}/api/v1/chatbot/chatbot/config`,
-  news: `${BASE_URL}/api/v1/chatbot/news`,
-  start: `${BASE_URL}/api/v1/chatbot/start`,
+  chat: `${BASE_URL}/api/v1/dart/chatbot/chat`,
+  config: `${BASE_URL}/api/v1/dart/chatbot/config`,
+  config_key: `${BASE_URL}/api/v1/dart/chatbot/chatbot/config`,
+  news: `${BASE_URL}/api/v1/dart/chatbot/news`,
+  start: `${BASE_URL}/api/v1/dart/chatbot/start`,
   stt: `${BASE_URL}/api/v1/vcb/sendAudioToSTT`,
 tts: `${BASE_URL}/api/v1/vcb/playTTS`,
 
-start_agent: `${BASE_URL}/api/v1/vcb/start_agent`,
-voice_agent_token: `${BASE_URL}/api/v1/vcb/token`,
+start_agent: `${BASE_URL}/api/v1/vcb/dart/start_agent`,
+voice_agent_token: `${BASE_URL}/api/v1/vcb/dart/token`,
 
-voice_chat: `${BASE_URL}/api/v1/vcb/chat`,
+voice_chat: `${BASE_URL}/api/v1/vcb/dart/chat`,
 
 
 };
