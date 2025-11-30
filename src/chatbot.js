@@ -828,7 +828,7 @@ this.createLoadingSound = () => {
           animation: shimmer 3s infinite;
           background-size: 200% auto;
           display:inline-block;
-      ">Powered by FinovaX ✨</span>
+      ">Powered by Dart ✨</span>
     </div>
   `;
 
